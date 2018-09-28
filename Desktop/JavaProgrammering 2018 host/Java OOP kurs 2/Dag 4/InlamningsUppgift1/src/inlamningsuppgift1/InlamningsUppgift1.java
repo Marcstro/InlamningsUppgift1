@@ -16,7 +16,7 @@ public class InlamningsUppgift1 {
         
         System.out.println("Hello world.");
             
-        System.out.println("This is version 2");
+        System.out.println("This is version 4");
     }
 
 }
