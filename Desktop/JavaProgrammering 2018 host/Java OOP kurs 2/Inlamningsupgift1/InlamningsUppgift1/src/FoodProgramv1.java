@@ -20,7 +20,7 @@ public class FoodProgramv1 {
          //we will add creatures to it
          
          Animal djur1=new Dog("Sixten", 5000.0);
-        //here we use polymorphism
+        //here we use make polymorphism possible
         //we give djur1, which is an Animal() class
         //the methods available in the Dog() class
          djuren.add(djur1);//adding creatures to the list, 1 by 1
@@ -43,6 +43,13 @@ public class FoodProgramv1 {
          int hittat=0;//a variable to check if the creature exists
          for(Animal a: djuren){
              if(djuret.equalsIgnoreCase(a.getName())){//check name of each animal
+                 //this line above uses polymorphism
+                 //a. in this case calls to the Animal-class
+                 //but the object is actually a cat, dog or a snake
+                 //even though in every case we use the same words
+                 //to make the reference, the final target might differentiate
+                 
+                 
                  JOptionPane.showMessageDialog(null, a.foodInfo());
                  hittat++;
                  break;
