@@ -43,8 +43,11 @@ public class Dag5U1 {
         Romersk.C, Romersk.D, Romersk.M };
         
         
+        for(Romersk r: Romersk.values()){
+            System.out.println(r + " har vardet " + r.varde);
+        }
         for(Romersk r: romare){
-            System.out.println(r.varde);
+            System.out.println(r + " har vardet " + r.varde);
         }
         
         Romersk roma = Romersk.L;
