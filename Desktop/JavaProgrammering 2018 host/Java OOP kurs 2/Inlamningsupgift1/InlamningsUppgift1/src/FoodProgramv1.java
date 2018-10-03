@@ -20,9 +20,11 @@ public class FoodProgramv1 {
          //we will add creatures to it
          
          Animal djur1=new Dog("Sixten", 5000.0);
-        //here we use make polymorphism possible
+        //here we make polymorphism possible
         //we give djur1, which is an Animal() class
         //the methods available in the Dog() class
+        //but this is NOT the place where polymorphism takes place
+        //it's only where it's made possible
          djuren.add(djur1);//adding creatures to the list, 1 by 1
          
          Animal djur2=new Dog("Dogge", 10000.0);

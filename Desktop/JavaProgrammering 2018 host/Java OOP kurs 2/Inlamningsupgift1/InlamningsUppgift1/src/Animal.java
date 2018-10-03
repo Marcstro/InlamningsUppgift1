@@ -47,9 +47,9 @@ public class Animal {
     //These empty methods
     //make it possible for daughter class-methods to use them
     
-    public void setFoodAmount(){}
+    public void setFoodAmount(double weight){}
     public void setOriginalFoodType(){}
-    public void changeWeight(){}
+    public void changeWeight(double weight){}
     
    
  
