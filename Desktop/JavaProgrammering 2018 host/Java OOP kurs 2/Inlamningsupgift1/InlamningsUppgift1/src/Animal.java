@@ -6,7 +6,7 @@
  */
 
 
-public class Animal {
+public abstract class Animal implements IFeeding{
     
     protected double weight;//encapsulation is done here
     protected String name;//variables are hidden and not available
@@ -47,9 +47,9 @@ public class Animal {
     //These empty methods
     //make it possible for daughter class-methods to use them
     
-    public void setFoodAmount(double weight){}
-    public void setOriginalFoodType(){}
-    public void changeWeight(double weight){}
+    //public abstract void setFoodAmount(double weight);
+    //public abstract void setOriginalFoodType();
+    //public abstract void changeWeight(double weight);
     
    
  

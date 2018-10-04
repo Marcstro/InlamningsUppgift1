@@ -6,7 +6,7 @@
  */
 
 
-public class Dog extends Animal implements IFeeding{
+public class Dog extends Animal{
 
    
     public static final double FOOD_RATIO = (0.01);
